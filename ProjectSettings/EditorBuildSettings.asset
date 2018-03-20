@@ -6,8 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Menu.unity
+    path: Assets/Scenes/Menu.unity
     guid: dc0b4f26063b59c479dbd77cc6e87e0f
   - enabled: 1
-    path: "Assets/Tir \xE0 l'arc.unity"
+    path: "Assets/Scenes/Tir \xE0 l'arc.unity"
     guid: 928de78713130f744a7c863cc28465db
+  - enabled: 1
+    path: Assets/Scenes/Basketball.unity
+    guid: 2ffc63ad8efdd5a49aa20a76dc5929a7
+  - enabled: 1
+    path: Assets/Scenes/Baseball.unity
+    guid: 1118eef0db1f68b45bb8d8551f106fe3
