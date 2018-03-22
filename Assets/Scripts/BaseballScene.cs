@@ -6,7 +6,7 @@ public class BaseballScene : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        SceneManager.LoadScene("Baseball");
+        SceneManager.LoadScene("Game");
 	}
 	
 }

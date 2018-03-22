@@ -21,6 +21,7 @@ public class baseball : MonoBehaviour {
         if (collision.gameObject.CompareTag("bat"))
         {
             rb.velocity = Vector3.zero;
+			Debug.Log ("Play sound");
             src.Play();
             Physics.IgnoreCollision(collision.gameObject.GetComponent<CapsuleCollider>(), gameObject.GetComponent<SphereCollider>());
 
