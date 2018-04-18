@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Scoring : MonoBehaviour {
-	public int count=0;
+	//Score score;
+	public int count = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -17,6 +18,6 @@ public class Scoring : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other){
 		count += 1;
-		Debug.Log (count);
+		Score.scoreTotal += 1;
 	}
 }
